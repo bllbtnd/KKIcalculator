@@ -11,3 +11,16 @@ Ensure you have Go installed on your system. Then, clone this repository and nav
 ```bash
 git clone <repository-url>
 cd <repository-directory>
+```
+Install dependencies using:
+```bash
+go mod tidy
+```
+To run the program, execute:
+```bash
+go run main.go
+```
+Or make an executable using:
+```bash
+go build main.go
+```
